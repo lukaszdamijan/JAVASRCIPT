@@ -1,3 +1,28 @@
+//Zadanie 1
+
+var x=1;
+var y=2;
+
+if(x>y) {
+   console.log("x jest wieksze"); 
+} else {
+    console.log("x jest mniejsze");
+} 
+
+//Zadanie 2
+
+let num1 = 112;
+let num2 = 115;
+let num3 = 20;
+
+if(num1 > num2 && num1 > num3) {
+    console.log('num1 jest największe');
+} else if(num2 > num3) {
+    console.log('num2 jest największe');
+} else {
+    console.log('num3 jest największe');
+}
+
 //Zadanie 3
 
 for(var x = 0; x<=10; x++)
